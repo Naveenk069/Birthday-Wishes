@@ -96,8 +96,8 @@ button{
 }
 .footer{
     margin-top:35px;
-    font-size:.95rem;
-    opacity:.85;
+    font-size:1rem;
+    opacity:.9;
 }
 
 /* Animations */
@@ -121,96 +121,84 @@ button{
 
 <div class="container">
 
-    <!-- Profile -->
-    <img src="https://image2url.com/r2/bucket1/images/1766539994691-7863e4b4-1171-4797-960d-cad9d81f3ac7.png"
-         class="profile-img" alt="HarishKumar">
+<img src="https://image2url.com/r2/bucket1/images/1766539994691-7863e4b4-1171-4797-960d-cad9d81f3ac7.png"
+     class="profile-img" alt="HarishKumar">
 
-    <h1>🎉 Happy Birthday 🎉</h1>
-    <h2>V. HarishKumar <br> M.A., LLB.</h2>
+<h1>🎉 Happy Birthday 🎉</h1>
+<h2>V. HarishKumar <br> M.A., LLB.</h2>
 
-    <!-- Tamil + Tanglish -->
-    <div class="card">
-        <p>
-            🎂 <span class="highlight">இன்று ஒரு Special Case!</span><br><br>
-            Family Court-la ellarum unanimous-aa decide pannina verdict:
-            <br><br>
-            <span class="highlight">“Inniku Sir-oda Birthday – Celebration Mandatory!”</span> 😄
-        </p>
+<div class="card">
+<p>
+🎂 <span class="highlight">இன்று ஒரு Special Case!</span><br><br>
+“Inniku Sir-oda Birthday – Celebration Mandatory!” 😄
+</p>
 
-        <p>
-            Neenga court-la arguments strong-aa pesuveenga,
-            <br>
-            veetla discussions-um judgement-oda mudiyum 😜
-        </p>
+<p>
+Neenga court-la arguments strong-aa pesuveenga,<br>
+veetla discussions-um judgement-oda mudiyum 😜
+</p>
 
-        <p class="highlight">
-            Objection illa ❌ | Appeal illa ❌<br>
-            Celebration mattum compulsory �⚖️
-        </p>
+<p class="highlight">
+Objection illa ❌ | Appeal illa ❌<br>
+Celebration mattum compulsory 🎉⚖️
+</p>
 
-        <!-- Tamil Voice -->
-        <button onclick="playTamilWish()">🔊 Wishes from people</button>
-    </div>
+<button onclick="playTamilWish()">🔊 Wishes from people</button>
+</div>
 
-    <!-- Memories -->
-    <div class="card">
-        <h2>📸 Sweet Memories</h2>
-        <div class="memories">
-            <img src="https://image2url.com/r2/bucket1/images/1766539597820-32952de7-d18a-46b7-a665-cde0cb5b48c2.jpg" class="memory-img">
+<div class="card">
+<h2>📸 Sweet Memories</h2>
+<div class="memories">
 
-            <!-- Memory 2 (Private Message) -->
-            <img src="https://image2url.com/r2/bucket1/images/1766537989886-694a8045-6e6a-44e8-a1df-102bcbd284f5.jpg"
-                 class="memory-img"
-                 onclick="checkEmail()">
+<img src="https://image2url.com/r2/bucket1/images/1766539597820-32952de7-d18a-46b7-a665-cde0cb5b48c2.jpg" class="memory-img">
 
-            <img src="https://image2url.com/r2/bucket1/images/1766540135535-e9749a7f-d247-4b4c-9566-c8068fb46cc4.png" class="memory-img">
-            <img src="https://image2url.com/r2/bucket1/images/1766539709679-e60ba18d-49d3-4754-95da-74ca950ad8b8.jpg" class="memory-img">
-        </div>
+<img src="https://image2url.com/r2/bucket1/images/1766537989886-694a8045-6e6a-44e8-a1df-102bcbd284f5.jpg"
+     class="memory-img"
+     onclick="checkCode()">
 
-        <div id="secretMsg" class="hidden-message">
-            💛 I hope you got your dream wife 💛
-        </div>
-    </div>
+<img src="https://image2url.com/r2/bucket1/images/1766540135535-e9749a7f-d247-4b4c-9566-c8068fb46cc4.png" class="memory-img">
+<img src="https://image2url.com/r2/bucket1/images/1766539709679-e60ba18d-49d3-4754-95da-74ca950ad8b8.jpg" class="memory-img">
 
-    <!-- Instagram -->
-    <div class="insta">
-        <p>💬 Neegalum Ungal Wishes-a direct-aa sollunga 👇</p>
-        <a href="https://www.instagram.com/hearthari05/" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">
-        </a>
-        <p class="highlight">@hearthari05</p>
-    </div>
+</div>
 
-    <div class="footer">
-        Filed with ❤️ | Birthday Case Closed 🎂⚖️
-    </div>
+<div id="secretMsg" class="hidden-message">
+💛 I hope you got your dream wife 💛
+</div>
+</div>
+
+<div class="insta">
+<p>💬 Neegalum Ungal Wishes-a direct-aa sollunga 👇</p>
+<a href="https://www.instagram.com/hearthari05/" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">
+</a>
+<p class="highlight">@hearthari05</p>
+</div>
+
+<div class="footer">
+Jokes apart — wishing you health, happiness, and lots of smiles 💫🎂
+</div>
 
 </div>
 
 <script>
-// Tamil Voice Wish
 function playTamilWish(){
     const msg = new SpeechSynthesisUtterance(
-        "நண்பர்களே.....    அன்பர்களே...... அங்காளிகளே..... பங்காளிகளே.....இனிய பிறந்தநாள் வாழ்த்துக்கள் ஹரிஷ் குமார் சார். உங்கள் வாழ்க்கை எப்போதும் ஆரோக்கியமும் சந்தோஷமும் வெற்றியும் நிறைந்ததாக இருக்கட்டும்."
+        "நண்பர்களே, அன்பர்களே, அங்காளிகளே, பங்காளிகளே. இனிய பிறந்தநாள் வாழ்த்துக்கள் ஹரிஷ் குமார் சார். உங்கள் வாழ்க்கை எப்போதும் ஆரோக்கியமும் சந்தோஷமும் வெற்றியும் நிறைந்ததாக இருக்கட்டும்."
     );
     msg.lang = "ta-IN";
     msg.rate = 0.9;
-    msg.pitch = 1;
     speechSynthesis.speak(msg);
 }
 
-// Email check for secret message
-function checkEmail(){
-    const email = prompt("This message is private. Please enter your Aadhar Number:");
-    if(email === "6426 0840 3296"){
+function checkCode(){
+    const code = prompt("This message is private. Enter the secret code:");
+    if(code === "6426 0840 3296"){
         document.getElementById("secretMsg").style.display = "block";
     }else{
-        alert("😄 This message is only for the birthday hero!");
+        alert("😄 Only for the birthday hero!");
     }
 }
 </script>
-
-<p>Jokes apart - wishing you health, happiness, and lots of smiles! 💫🎂</p>
 
 </body>
 </html>
